@@ -5,32 +5,34 @@
 
 body{
     background-color: lightcyan;
+    width: 360px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
 }
 
 #wrapper{
-    /* border: 1px solid red; */
-    padding-left: 37.5%;
+    padding: 0 10px;
 }
 
 #result{
-    width: 270px;
-    height: 90px;
+    width: 240px;
+    height: 80px;
     margin: 5px;
     text-align: right;
     font-size: 2rem;
 }
 
 #operator{
-    width: 80px;
-    height: 90px;
+    width: 70px;
+    height: 80px;
     margin: 5px;
     text-align: center;
     font-size: 2rem;
 }
 
 button{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     margin: 5px;
     font-size: 2rem;
     background-color: #add8e6;
